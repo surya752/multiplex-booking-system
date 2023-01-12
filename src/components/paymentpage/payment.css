@@ -1,0 +1,125 @@
+
+
+.container752{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg,black 60%, black 40.1%);
+}
+
+.container752 form{
+  padding:20px;
+  width:700px;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container752 form .row752{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container752 form .row752 .col752{
+  flex:1 1 250px;
+}
+
+.container752 form .row752 .col752 .title752{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container752 form .row752 .col752 .inputBox752{
+  margin:15px 0;
+}
+
+.container752 form .row752 .col752 .inputBox752 span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container752 form .row752 .col752 .inputBox752 input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container752 form .row752 .col752 .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container752 form .row752 .col752 .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container752 form .row752 .col752 .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container752 form .row752 .col752 .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container752 form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: black;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container752 form .submit-btn:hover{
+  background: black;
+}
+
+.pay{
+  padding-top: 4% ;
+   position: relative;
+   margin: 40px auto;
+   width: 800px;
+   height: 500px;
+  background-color: black;
+   border-radius: 20px;
+   
+  }
+ 
+  .pay:before,
+  .pay:after{
+   content: '';
+   position: absolute;
+   top: -2px;
+   left: -2px;
+   background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+   background-size: 400% 400%;
+   width: calc(100% + 6px);
+   height: calc(100% + 6px);
+   border-radius: 20px;
+   z-index: -1;
+   animation: animate 3s ease alternate infinite;
+  }
+  .pay:after{
+   filter: blur(20px);
+  }
+  @keyframes animate{
+   0%{
+     background-position: 0 50%;
+   }
+   50%{
+     background-position: 100% 50%;
+   }
+   100%{
+     background-position: 0% 50%;
+   }
+  }
+  

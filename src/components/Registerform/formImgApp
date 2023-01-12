@@ -1,0 +1,21 @@
+import './Register.css';
+
+
+import Register from './Register';
+
+function From() {
+  return (
+    <div className="container mt-3">
+      <div className="row">
+        <div className="col-md-5">
+          <Register />
+        </div>
+        <div className="col-md-7 my-auto">
+          <img className="img-fluid w-100" src="https://wallpaperaccess.com/full/418711.jpg" alt=""/>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default From;
